@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;background:#5A708C;color:#0D1117;}
+  .page{width:820px;min-height:1060px;margin:0 auto;background:#fff;padding:64px 64px 56px;}
+  .step{break-inside:avoid;}
+  ol,ul{margin:0;padding:0;}
+  @media print{
+    body{background:#fff;}
+    .page{width:auto;min-height:auto;margin:0;padding:0;box-shadow:none;}
+    .page + .page{page-break-before:always;}
+  }
+  @page{size:A4;margin:16mm 15mm;}
+</style>
+</helmet>
+
+<div style="padding:28px 0;">
+
+  <!-- COVER -->
+  <div class="page" style="display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(165deg,#0B1B33,#0B3C63);color:#F2F5FA;box-shadow:0 20px 50px rgba(0,0,0,.3);margin-bottom:28px;">
+    <img src="uploads/prevent-1line-bio-white.png" alt="Prevent Biometrics" style="height:34px;width:auto;">
+    <div>
+      <div style="font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#5BC8E8;margin-bottom:18px;">Step-by-step · No code required</div>
+      <h1 style="font-size:52px;line-height:1.05;font-weight:800;letter-spacing:-.025em;margin-bottom:20px;">Putting your site<br>into Shopify</h1>
+      <p style="font-size:18px;line-height:1.6;color:#AFC0D6;max-width:520px;">A plain-English walkthrough you can follow yourself — from creating the store to going live. Every click is spelled out.</p>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;">
+      <span style="font-size:12px;font-weight:700;background:rgba(91,200,232,.16);color:#5BC8E8;padding:7px 14px;border-radius:99px;">Marketing site first</span>
+      <span style="font-size:12px;font-weight:700;background:rgba(124,58,237,.18);color:#B98BFF;padding:7px 14px;border-radius:99px;">Plus &amp; commerce later</span>
+      <span style="font-size:12px;font-weight:700;background:rgba(34,201,138,.16);color:#3FE0A6;padding:7px 14px;border-radius:99px;">~2 hours</span>
+    </div>
+  </div>
+
+  <!-- PAGE 1 -->
+  <div class="page" style="box-shadow:0 20px 50px rgba(0,0,0,.3);margin-bottom:28px;">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid #0D1117;padding-bottom:14px;margin-bottom:30px;">
+      <span style="font-size:13px;font-weight:800;letter-spacing:.04em;">PREVENT BIOMETRICS</span>
+      <span style="font-size:12px;color:#8696A8;font-weight:600;">Shopify Setup Guide</span>
+    </div>
+
+    <div style="background:#EFF4FB;border-left:3px solid #0095DA;border-radius:6px;padding:18px 20px;margin-bottom:30px;">
+      <div style="font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#0077AE;margin-bottom:8px;">Before you start</div>
+      <div style="font-size:14.5px;line-height:1.6;color:#2B3A4D;">Have these ready: an email address for the account, your logo and product/rugby images (in the <b>assets</b> and <b>uploads</b> folders of your download), and your design files open in a browser as a visual reference. Set aside about two hours. You will <b>not</b> add products or take payments — this is a marketing site only.</div>
+    </div>
+
+    <div class="step" style="margin-bottom:28px;">
+      <div style="display:flex;align-items:center;gap:13px;margin-bottom:12px;">
+        <span style="flex-shrink:0;width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#5BC8E8,#0095DA,#003C6E);color:#fff;font-weight:800;font-size:18px;display:inline-flex;align-items:center;justify-content:center;">1</span>
+        <h2 style="font-size:23px;font-weight:800;letter-spacing:-.01em;">Create your Shopify account</h2>
+      </div>
+      <ol style="list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14.5px;line-height:1.55;color:#2B3A4D;padding-left:51px;">
+        <li>Go to <b>shopify.com</b> and click <b>Start free trial</b>.</li>
+        <li>Enter your email and create a password. When asked what you want to sell, you can pick <b>“I'm still exploring”</b> — it doesn't lock anything in.</li>
+        <li>Name the store <b>Prevent Biometrics</b>. You can change this later in Settings.</li>
+        <li>When the trial offer appears, choose the <b>Advanced</b> plan (the $1/month trial). You'll upgrade to Plus only when you're ready for commerce.</li>
+      </ol>
+    </div>
+
+    <div class="step" style="margin-bottom:28px;">
+      <div style="display:flex;align-items:center;gap:13px;margin-bottom:12px;">
+        <span style="flex-shrink:0;width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#5BC8E8,#0095DA,#003C6E);color:#fff;font-weight:800;font-size:18px;display:inline-flex;align-items:center;justify-content:center;">2</span>
+        <h2 style="font-size:23px;font-weight:800;letter-spacing:-.01em;">Keep it a marketing site (no shop yet)</h2>
+      </div>
+      <ol style="list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14.5px;line-height:1.55;color:#2B3A4D;padding-left:51px;">
+        <li>Don't add any products. With no products, there's no checkout to worry about.</li>
+        <li>Hide the site from the public while you build: in the left sidebar go to <b>Online Store → Preferences</b>, scroll to <b>Password protection</b>, tick <b>Restrict access</b>, and set a password.</li>
+        <li>You'll remove that password in the final step when you're ready to launch.</li>
+      </ol>
+    </div>
+
+    <div class="step">
+      <div style="display:flex;align-items:center;gap:13px;margin-bottom:12px;">
+        <span style="flex-shrink:0;width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#5BC8E8,#0095DA,#003C6E);color:#fff;font-weight:800;font-size:18px;display:inline-flex;align-items:center;justify-content:center;">3</span>
+        <h2 style="font-size:23px;font-weight:800;letter-spacing:-.01em;">Choose &amp; open your theme</h2>
+      </div>
+      <ol style="list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14.5px;line-height:1.55;color:#2B3A4D;padding-left:51px;">
+        <li>Go to <b>Online Store → Themes</b>.</li>
+        <li>The free <b>Dawn</b> theme is already installed. For closer control of this design, click <b>Visit Theme Store</b> and buy <b>Impulse</b> or <b>Prestige</b> (~$300 one-time), then <b>Add</b> it.</li>
+        <li>Next to your theme, click <b>Customize</b>. This opens the drag-and-drop editor where you'll build every page. Keep your design files open beside it to copy from.</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- PAGE 2 -->
+  <div class="page" style="box-shadow:0 20px 50px rgba(0,0,0,.3);margin-bottom:28px;">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid #0D1117;padding-bottom:14px;margin-bottom:30px;">
+      <span style="font-size:13px;font-weight:800;letter-spacing:.04em;">PREVENT BIOMETRICS</span>
+      <span style="font-size:12px;color:#8696A8;font-weight:600;">Shopify Setup Guide</span>
+    </div>
+
+    <div class="step" style="margin-bottom:28px;">
+      <div style="display:flex;align-items:center;gap:13px;margin-bottom:12px;">
+        <span style="flex-shrink:0;width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#5BC8E8,#0095DA,#003C6E);color:#fff;font-weight:800;font-size:18px;display:inline-flex;align-items:center;justify-content:center;">4</span>
+        <h2 style="font-size:23px;font-weight:800;letter-spacing:-.01em;">Upload your logo &amp; images</h2>
+      </div>
+      <ol style="list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14.5px;line-height:1.55;color:#2B3A4D;padding-left:51px;">
+        <li>Go to <b>Content → Files</b> and drag in everything from your <b>assets</b> and <b>uploads</b> folders (logos, rugby photos, product shots, press logos).</li>
+        <li>Set the site logo: in the theme editor, click the header section, then <b>Logo → Select image</b> and pick <b>prevent-1line-bio-white.png</b> (white version for the dark header).</li>
+      </ol>
+    </div>
+
+    <div class="step">
+      <div style="display:flex;align-items:center;gap:13px;margin-bottom:12px;">
+        <span style="flex-shrink:0;width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#5BC8E8,#0095DA,#003C6E);color:#fff;font-weight:800;font-size:18px;display:inline-flex;align-items:center;justify-content:center;">5</span>
+        <h2 style="font-size:23px;font-weight:800;letter-spacing:-.01em;">Build the homepage, section by section</h2>
+      </div>
+      <p style="font-size:14.5px;line-height:1.55;color:#2B3A4D;padding-left:51px;margin-bottom:14px;">In the editor, use <b>Add section</b> and match each part of the design top-to-bottom. Type the copy straight from your design files.</p>
+      <div style="padding-left:51px;display:flex;flex-direction:column;gap:9px;">
+        <div style="display:grid;grid-template-columns:185px 1fr;gap:14px;font-size:14px;line-height:1.5;color:#2B3A4D;border-top:1px solid #E2E8F0;padding-top:9px;"><b>Hero</b><span>“Image banner” — set the rugby photo as background, add the headline + two buttons.</span></div>
+        <div style="display:grid;grid-template-columns:185px 1fr;gap:14px;font-size:14px;line-height:1.5;color:#2B3A4D;border-top:1px solid #E2E8F0;padding-top:9px;"><b>As featured in</b><span>“Logo list” — upload the five press logos.</span></div>
+        <div style="display:grid;grid-template-columns:185px 1fr;gap:14px;font-size:14px;line-height:1.5;color:#2B3A4D;border-top:1px solid #E2E8F0;padding-top:9px;"><b>Why it matters</b><span>“Multicolumn” with 5 columns for the measurements, plus an image of the exploded mouthguard.</span></div>
+        <div style="display:grid;grid-template-columns:185px 1fr;gap:14px;font-size:14px;line-height:1.5;color:#2B3A4D;border-top:1px solid #E2E8F0;padding-top:9px;"><b>How it works</b><span>“Image with text” — the system photo + the 3 steps.</span></div>
+        <div style="display:grid;grid-template-columns:185px 1fr;gap:14px;font-size:14px;line-height:1.5;color:#2B3A4D;border-top:1px solid #E2E8F0;padding-top:9px;"><b>Validation</b><span>“Multicolumn” for the stats + study cards; link each card to the study URL.</span></div>
+        <div style="display:grid;grid-template-columns:185px 1fr;gap:14px;font-size:14px;line-height:1.5;color:#2B3A4D;border-top:1px solid #E2E8F0;padding-top:9px;"><b>Blog &amp; Newsroom</b><span>“Blog posts” section, pointed at each blog (set up in Step 7).</span></div>
+        <div style="display:grid;grid-template-columns:185px 1fr;gap:14px;font-size:14px;line-height:1.5;color:#2B3A4D;border-top:1px solid #E2E8F0;border-bottom:1px solid #E2E8F0;padding:9px 0;"><b>Support</b><span>“Rich text” / “Multicolumn” with the two cards linking to your portal &amp; help centre.</span></div>
+      </div>
+      <div style="margin:16px 0 0 51px;background:#FFFBEB;border-left:3px solid #B45309;border-radius:6px;padding:14px 18px;font-size:13.5px;line-height:1.55;color:#42546B;">
+        <b style="color:#B45309;">For the gradient tiles &amp; fancy cards:</b> the built-in sections won't reproduce them exactly. Add a <b>“Custom Liquid”</b> section and paste that block's code straight from the matching <b>.dc.html</b> file (copy from its opening <span style="font-family:monospace;">&lt;div…&gt;</span> to its closing <span style="font-family:monospace;">&lt;/div&gt;</span>). It will render as-is.
+      </div>
+    </div>
+  </div>
+
+  <!-- PAGE 3 -->
+  <div class="page" style="box-shadow:0 20px 50px rgba(0,0,0,.3);margin-bottom:28px;">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid #0D1117;padding-bottom:14px;margin-bottom:30px;">
+      <span style="font-size:13px;font-weight:800;letter-spacing:.04em;">PREVENT BIOMETRICS</span>
+      <span style="font-size:12px;color:#8696A8;font-weight:600;">Shopify Setup Guide</span>
+    </div>
+
+    <div class="step" style="margin-bottom:26px;">
+      <div style="display:flex;align-items:center;gap:13px;margin-bottom:12px;">
+        <span style="flex-shrink:0;width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#5BC8E8,#0095DA,#003C6E);color:#fff;font-weight:800;font-size:18px;display:inline-flex;align-items:center;justify-content:center;">6</span>
+        <h2 style="font-size:23px;font-weight:800;letter-spacing:-.01em;">Add your standalone pages</h2>
+      </div>
+      <ol style="list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14.5px;line-height:1.55;color:#2B3A4D;padding-left:51px;">
+        <li>Go to <b>Online Store → Pages → Add page</b>.</li>
+        <li>Create a <b>Careers</b> page — paste the text from <b>Careers.dc.html</b>, and make the email a link to <b>support@preventbiometrics.com</b>.</li>
+        <li>Add any other standalone pages the same way.</li>
+      </ol>
+    </div>
+
+    <div class="step" style="margin-bottom:26px;">
+      <div style="display:flex;align-items:center;gap:13px;margin-bottom:12px;">
+        <span style="flex-shrink:0;width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#5BC8E8,#0095DA,#003C6E);color:#fff;font-weight:800;font-size:18px;display:inline-flex;align-items:center;justify-content:center;">7</span>
+        <h2 style="font-size:23px;font-weight:800;letter-spacing:-.01em;">Set up the Blog &amp; Newsroom</h2>
+      </div>
+      <ol style="list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14.5px;line-height:1.55;color:#2B3A4D;padding-left:51px;">
+        <li>Go to <b>Online Store → Blog posts</b>, click <b>Manage blogs</b>, then <b>Add blog</b>. Make two: one called <b>Blog</b> and one called <b>Newsroom</b>.</li>
+        <li>Add your three articles to <b>Blog</b> (copy from the <b>blog-*.dc.html</b> files). For <b>Newsroom</b>, add a post per item — title, date, and a link out to the article.</li>
+        <li>Tip: keep the “AI-assisted draft” articles in <b>Draft</b> until you've reviewed them.</li>
+      </ol>
+    </div>
+
+    <div class="step">
+      <div style="display:flex;align-items:center;gap:13px;margin-bottom:12px;">
+        <span style="flex-shrink:0;width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#5BC8E8,#0095DA,#003C6E);color:#fff;font-weight:800;font-size:18px;display:inline-flex;align-items:center;justify-content:center;">8</span>
+        <h2 style="font-size:23px;font-weight:800;letter-spacing:-.01em;">Build the menu &amp; key links</h2>
+      </div>
+      <ol style="list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14.5px;line-height:1.55;color:#2B3A4D;padding-left:51px;">
+        <li>Go to <b>Online Store → Navigation → Main menu</b>.</li>
+        <li>Add menu items: <b>Why it matters, How it works, Validation, Blog, Newsroom, Support</b>.</li>
+        <li>Add <b>Customer Portal</b> as a link to <b>https://portal.preventbiometrics.com</b>, and point <b>Support</b> at <b>https://support.preventbiometrics.com</b> (your HubSpot help centre).</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- PAGE 4 -->
+  <div class="page" style="box-shadow:0 20px 50px rgba(0,0,0,.3);">
+    <div style="display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid #0D1117;padding-bottom:14px;margin-bottom:30px;">
+      <span style="font-size:13px;font-weight:800;letter-spacing:.04em;">PREVENT BIOMETRICS</span>
+      <span style="font-size:12px;color:#8696A8;font-weight:600;">Shopify Setup Guide</span>
+    </div>
+
+    <div class="step" style="margin-bottom:26px;">
+      <div style="display:flex;align-items:center;gap:13px;margin-bottom:12px;">
+        <span style="flex-shrink:0;width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#5BC8E8,#0095DA,#003C6E);color:#fff;font-weight:800;font-size:18px;display:inline-flex;align-items:center;justify-content:center;">9</span>
+        <h2 style="font-size:23px;font-weight:800;letter-spacing:-.01em;">Connect HubSpot</h2>
+      </div>
+      <ol style="list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14.5px;line-height:1.55;color:#2B3A4D;padding-left:51px;">
+        <li>Go to <b>Apps</b> (left sidebar) → <b>Shopify App Store</b>, search <b>HubSpot</b>, and click <b>Install</b>.</li>
+        <li>Follow its prompts to connect your HubSpot account — this captures leads from any forms.</li>
+        <li>Make sure your <b>Support</b> button and footer link point to your HubSpot help centre URL.</li>
+      </ol>
+    </div>
+
+    <div class="step" style="margin-bottom:30px;">
+      <div style="display:flex;align-items:center;gap:13px;margin-bottom:12px;">
+        <span style="flex-shrink:0;width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#22C98A,#1A9E6B);color:#fff;font-weight:800;font-size:18px;display:inline-flex;align-items:center;justify-content:center;">10</span>
+        <h2 style="font-size:23px;font-weight:800;letter-spacing:-.01em;">Go live</h2>
+      </div>
+      <ol style="list-style:none;display:flex;flex-direction:column;gap:9px;font-size:14.5px;line-height:1.55;color:#2B3A4D;padding-left:51px;">
+        <li>Review everything in <b>Preview</b>. Test every menu link and button.</li>
+        <li>Remove the password: <b>Online Store → Preferences</b> → untick <b>Restrict access</b>.</li>
+        <li>Connect your domain: <b>Settings → Domains → Connect existing domain</b>, enter <b>preventbiometrics.com</b>, and follow the DNS steps. Tip: keep your old site running until the new one is confirmed working.</li>
+      </ol>
+    </div>
+
+    <div style="background:linear-gradient(135deg,#C084FC,#7C3AED);border-radius:14px;padding:24px 26px;color:#fff;margin-bottom:18px;">
+      <div style="font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.85);margin-bottom:8px;">Later — when you're ready to sell</div>
+      <div style="font-size:15px;line-height:1.6;">Upgrade to <b>Shopify Plus</b> from <b>Settings → Plan</b> — one click, no rebuild. Then add products, switch on checkout, and layer in subscriptions (Recharge), B2B / tiered pricing, and Buy-Now-Pay-Later. Everything you built here stays exactly as it is.</div>
+    </div>
+
+    <div style="background:#F5F7FA;border-radius:14px;padding:22px 24px;">
+      <div style="font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#5A708C;margin-bottom:12px;">Quick gotchas</div>
+      <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;font-size:14px;line-height:1.55;color:#2B3A4D;">
+        <li>• Confirm the validation stats (0.97 / 0.98 CCC, 81.6% PPV) before publishing — they come from a cited study.</li>
+        <li>• The blog articles are AI-assisted drafts — review them first.</li>
+        <li>• Newsroom links point to real third-party articles; open each to confirm it still works.</li>
+        <li>• Save your work as you go — Shopify's editor autosaves, but click <b>Save</b> after big changes.</li>
+      </ul>
+    </div>
+
+    <div style="margin-top:30px;display:flex;align-items:center;gap:11px;border-top:1px solid #E2E8F0;padding-top:18px;">
+      <img src="uploads/prevent-symbol-color-gradient.png" alt="" style="height:28px;width:auto;">
+      <span style="font-size:13px;color:#8696A8;">Prevent Biometrics · Make the invisible measurable.</span>
+    </div>
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>
